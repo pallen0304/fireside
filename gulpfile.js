@@ -54,7 +54,7 @@ gulp.task('styles-sass', function() {
     .pipe(gulp.dest(config.temp));
 });
 
-gulp.task('styles', ['clean-styles', 'styles-less', 'styles-sass']);
+gulp.task('styles', ['clean-styles', 'styles-less']);
 
 gulp.task('fonts', function() {
   log('Copying fonts');
